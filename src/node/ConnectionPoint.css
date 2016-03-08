@@ -1,0 +1,45 @@
+.connector-area > *{
+    margin-top: 10px;
+}
+
+.node-output{
+    font-size: 11px;
+    padding-right: 10px;
+}
+
+input[type="text"].node-input{
+    font-size: 11px;
+    outline: none;
+    width: 70%;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: solid 1px #b9b9b9;
+    padding: 2px 7px;
+    text-align: left;
+}
+
+.connector-area .out{
+    text-align: right;
+}
+
+.connector-area .connector{
+    width: 10px;
+    height: 10px;
+    background-color: #969696;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    cursor: pointer;
+}
+
+.connector-area .connector.out{
+    right: -5px;
+}
+
+.connector-area .connector.in{
+    left: -5px;
+}
+
+.prop{
+    position: relative;
+}

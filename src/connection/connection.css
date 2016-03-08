@@ -1,0 +1,9 @@
+.rel-start{
+    position: absolute;
+}
+
+.rel-start path{
+     stroke-width: 3;
+    fill: none;
+    stroke: black;
+}

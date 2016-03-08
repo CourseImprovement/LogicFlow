@@ -1,0 +1,26 @@
+.node{
+    min-height: 100px;
+    min-width: 120px;
+    background-color: #5A5A5A;
+    display: inline-block;
+    box-shadow: 0 0 20px black;
+    border-radius: 4px;
+    position: absolute !important;
+    top: 100px;
+    left: 200px;
+    border: solid 1px;
+    padding-bottom: 10px;
+}
+
+.node .head{
+    background-color: #524F54;
+    font-size: 9px;
+    text-align: left;
+    padding: 1px 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.node.active{
+    border-color: #D8933E;
+}
